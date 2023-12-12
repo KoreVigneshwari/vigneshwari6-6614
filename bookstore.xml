@@ -6,46 +6,43 @@
 <!ELEMENT bookprice (#PCDATA)> 
 <!ELEMENT bookauthor (#PCDATA)> 
 <!ELEMENT booknumber (#PCDATA)> 
- 
+
 <!ELEMENT pages (#PCDATA)> 
-
 ]> 
-
-
 <bookstore>
 <book>
-<bookname> Python Programming Book</bookname>
-<bookauthor>Guido van Rossum</bookauthor>
-<bookprice>$500</bookprice>
-<ISBN>23456</ISBN>
-<pages>500</pages>
-</book>
-<book>
-<bookname> c Programming Book</bookname>
-<bookauthor>Dennis Ritchie</bookauthor>
+<bookname>Operating system</bookname>
+<bookauthor>abcd</bookauthor>
 <bookprice>$300</bookprice>
-<ISBN>76156</ISBN>
-<pages>180</pages>
+<ISBN>98765</ISBN>
+<pages>800</pages>
 </book>
 <book>
-<bookname> c++ Programming Book</bookname>
-<bookauthor>Bjarne Stroustrup</bookauthor>
-<bookprice>$200</bookprice>
-<ISBN>98456</ISBN>
-<pages>300</pages>
+<bookname>Software engineering</bookname>
+<bookauthor>efgh</bookauthor>
+<bookprice>$800</bookprice>
+<ISBN>98543</ISBN>
+<pages>1000</pages>
 </book>
 <book>
-<bookname> Java Programming Book</bookname>
-<bookauthor>James Gosling</bookauthor>
+<bookname>Data structures</bookname>
+<bookauthor>ijkl</bookauthor>
+<bookprice>$1000</bookprice>
+<ISBN>98345</ISBN>
+<pages>600</pages>
+</book>
+<book>
+<bookname>Computer Organisation</bookname>
+<bookauthor>mnop</bookauthor>
+<bookprice>$900</bookprice>
+<ISBN>98675</ISBN>
+<pages>1500</pages>
+</book>
+<book>
+<bookname>Msf</bookname>
+<bookauthor>qrst</bookauthor>
 <bookprice>$500</bookprice>
-<ISBN>12456</ISBN>
-<pages>200</pages>
-</book>
-<book>
-<bookname> html language book</bookname>
-<bookauthor>Tim Berners Lee</bookauthor>
-<bookprice>$400</bookprice>
-<ISBN>73456</ISBN>
-<pages>300</pages>
+<ISBN>98875</ISBN>
+<pages>1200</pages>
 </book>
 </bookstore>
