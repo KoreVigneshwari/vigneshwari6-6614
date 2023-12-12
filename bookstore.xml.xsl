@@ -3,8 +3,8 @@
     <html>
       <body>
        <h2 align="center">BOOK STORE</h2>
-        <table border="1" align="center">
-          <tr bgcolor="gray">
+        <table border="2" align="center">
+          <tr bgcolor="ivory">
             <th>Book Name</th>
             <th>Author Name</th>
             <th>Price</th>
@@ -19,11 +19,11 @@
 
   <xsl:template match="book">
     <tr>
-      <td bgcolor="aqua">><xsl:value-of select="bookname"/></td>
-      <td bgcolor="red"><xsl:value-of select="bookauthor"/></td>
-      <td bgcolor="yellow"><xsl:value-of select="bookprice"/></td>
-      <td bgcolor="orange"><xsl:value-of select="ISBN"/></td>
-      <td bgcolor="pink"><xsl:value-of select="pages"/></td>
+      <td bgcolor="lightgreen"><xsl:value-of select="bookname"/></td>
+      <td bgcolor="pink"><xsl:value-of select="bookauthor"/></td>
+      <td bgcolor="lightblue"><xsl:value-of select="bookprice"/></td>
+      <td bgcolor="yellow"><xsl:value-of select="ISBN"/></td>
+      <td bgcolor="green"><xsl:value-of select="pages"/></td>
     </tr>
   </xsl:template>
 </xsl:stylesheet>
